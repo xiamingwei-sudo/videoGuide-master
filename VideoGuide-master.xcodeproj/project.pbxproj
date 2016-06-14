@@ -10,11 +10,17 @@
 		20A7E3561D0FA86100728120 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A7E3551D0FA86100728120 /* main.m */; };
 		20A7E3591D0FA86100728120 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A7E3581D0FA86100728120 /* AppDelegate.m */; };
 		20A7E35C1D0FA86100728120 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A7E35B1D0FA86100728120 /* ViewController.m */; };
-		20A7E35F1D0FA86100728120 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20A7E35D1D0FA86100728120 /* Main.storyboard */; };
 		20A7E3611D0FA86100728120 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20A7E3601D0FA86100728120 /* Assets.xcassets */; };
 		20A7E3641D0FA86100728120 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20A7E3621D0FA86100728120 /* LaunchScreen.storyboard */; };
 		20A7E36F1D0FA86100728120 /* VideoGuide_masterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A7E36E1D0FA86100728120 /* VideoGuide_masterTests.m */; };
 		20A7E37A1D0FA86100728120 /* VideoGuide_masterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A7E3791D0FA86100728120 /* VideoGuide_masterUITests.m */; };
+		20A7E38C1D0FA90E00728120 /* guide0.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20A7E3881D0FA90E00728120 /* guide0.mp4 */; };
+		20A7E38D1D0FA90E00728120 /* guide1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20A7E3891D0FA90E00728120 /* guide1.mp4 */; };
+		20A7E38E1D0FA90E00728120 /* guide2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20A7E38A1D0FA90E00728120 /* guide2.mp4 */; };
+		20A7E38F1D0FA90E00728120 /* guide3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 20A7E38B1D0FA90E00728120 /* guide3.mp4 */; };
+		20A7E3981D0FAB4600728120 /* NewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A7E3971D0FAB4600728120 /* NewFeatureViewController.m */; };
+		20A7E39B1D0FAE8800728120 /* MWFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A7E39A1D0FAE8800728120 /* MWFlowLayout.m */; };
+		20A7E39E1D0FB3BC00728120 /* NewFeatureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A7E39D1D0FB3BC00728120 /* NewFeatureCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +47,6 @@
 		20A7E3581D0FA86100728120 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		20A7E35A1D0FA86100728120 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		20A7E35B1D0FA86100728120 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		20A7E35E1D0FA86100728120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20A7E3601D0FA86100728120 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20A7E3631D0FA86100728120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20A7E3651D0FA86100728120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +56,16 @@
 		20A7E3751D0FA86100728120 /* VideoGuide-masterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VideoGuide-masterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A7E3791D0FA86100728120 /* VideoGuide_masterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoGuide_masterUITests.m; sourceTree = "<group>"; };
 		20A7E37B1D0FA86100728120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20A7E3881D0FA90E00728120 /* guide0.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = guide0.mp4; sourceTree = "<group>"; };
+		20A7E3891D0FA90E00728120 /* guide1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = guide1.mp4; sourceTree = "<group>"; };
+		20A7E38A1D0FA90E00728120 /* guide2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = guide2.mp4; sourceTree = "<group>"; };
+		20A7E38B1D0FA90E00728120 /* guide3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = guide3.mp4; sourceTree = "<group>"; };
+		20A7E3961D0FAB4600728120 /* NewFeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFeatureViewController.h; sourceTree = "<group>"; };
+		20A7E3971D0FAB4600728120 /* NewFeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFeatureViewController.m; sourceTree = "<group>"; };
+		20A7E3991D0FAE8800728120 /* MWFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWFlowLayout.h; sourceTree = "<group>"; };
+		20A7E39A1D0FAE8800728120 /* MWFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWFlowLayout.m; sourceTree = "<group>"; };
+		20A7E39C1D0FB3BC00728120 /* NewFeatureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFeatureCell.h; sourceTree = "<group>"; };
+		20A7E39D1D0FB3BC00728120 /* NewFeatureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFeatureCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +116,12 @@
 		20A7E3531D0FA86100728120 /* VideoGuide-master */ = {
 			isa = PBXGroup;
 			children = (
+				20A7E3921D0FAB1400728120 /* NewFeature */,
+				20A7E3871D0FA90E00728120 /* Resource */,
 				20A7E3571D0FA86100728120 /* AppDelegate.h */,
 				20A7E3581D0FA86100728120 /* AppDelegate.m */,
 				20A7E35A1D0FA86100728120 /* ViewController.h */,
 				20A7E35B1D0FA86100728120 /* ViewController.m */,
-				20A7E35D1D0FA86100728120 /* Main.storyboard */,
 				20A7E3601D0FA86100728120 /* Assets.xcassets */,
 				20A7E3621D0FA86100728120 /* LaunchScreen.storyboard */,
 				20A7E3651D0FA86100728120 /* Info.plist */,
@@ -138,6 +154,54 @@
 				20A7E37B1D0FA86100728120 /* Info.plist */,
 			);
 			path = "VideoGuide-masterUITests";
+			sourceTree = "<group>";
+		};
+		20A7E3871D0FA90E00728120 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				20A7E3881D0FA90E00728120 /* guide0.mp4 */,
+				20A7E3891D0FA90E00728120 /* guide1.mp4 */,
+				20A7E38A1D0FA90E00728120 /* guide2.mp4 */,
+				20A7E38B1D0FA90E00728120 /* guide3.mp4 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		20A7E3921D0FAB1400728120 /* NewFeature */ = {
+			isa = PBXGroup;
+			children = (
+				20A7E3931D0FAB1400728120 /* Catergtoy */,
+				20A7E3941D0FAB1400728120 /* Controller */,
+				20A7E3951D0FAB1400728120 /* View */,
+			);
+			path = NewFeature;
+			sourceTree = "<group>";
+		};
+		20A7E3931D0FAB1400728120 /* Catergtoy */ = {
+			isa = PBXGroup;
+			children = (
+				20A7E3991D0FAE8800728120 /* MWFlowLayout.h */,
+				20A7E39A1D0FAE8800728120 /* MWFlowLayout.m */,
+			);
+			path = Catergtoy;
+			sourceTree = "<group>";
+		};
+		20A7E3941D0FAB1400728120 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				20A7E3961D0FAB4600728120 /* NewFeatureViewController.h */,
+				20A7E3971D0FAB4600728120 /* NewFeatureViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		20A7E3951D0FAB1400728120 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				20A7E39C1D0FB3BC00728120 /* NewFeatureCell.h */,
+				20A7E39D1D0FB3BC00728120 /* NewFeatureCell.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +307,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20A7E38E1D0FA90E00728120 /* guide2.mp4 in Resources */,
+				20A7E38D1D0FA90E00728120 /* guide1.mp4 in Resources */,
+				20A7E38F1D0FA90E00728120 /* guide3.mp4 in Resources */,
 				20A7E3641D0FA86100728120 /* LaunchScreen.storyboard in Resources */,
 				20A7E3611D0FA86100728120 /* Assets.xcassets in Resources */,
-				20A7E35F1D0FA86100728120 /* Main.storyboard in Resources */,
+				20A7E38C1D0FA90E00728120 /* guide0.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +337,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20A7E39B1D0FAE8800728120 /* MWFlowLayout.m in Sources */,
 				20A7E35C1D0FA86100728120 /* ViewController.m in Sources */,
 				20A7E3591D0FA86100728120 /* AppDelegate.m in Sources */,
+				20A7E3981D0FAB4600728120 /* NewFeatureViewController.m in Sources */,
 				20A7E3561D0FA86100728120 /* main.m in Sources */,
+				20A7E39E1D0FB3BC00728120 /* NewFeatureCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +378,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		20A7E35D1D0FA86100728120 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				20A7E35E1D0FA86100728120 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		20A7E3621D0FA86100728120 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -414,9 +476,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "VideoGuide-master/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sino.VideoGuide-master";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -425,9 +489,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "VideoGuide-master/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sino.VideoGuide-master";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

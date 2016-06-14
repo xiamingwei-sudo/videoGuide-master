@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+#define PlayFinishedNotify @"PlayFinishedNotify"
 @interface NewFeatureCell : UICollectionViewCell
+
+@property (nonatomic , strong)UIImage *videoImage;
+
+@property (nonatomic , copy)NSString *videoPath;
 
 @end
